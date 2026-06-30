@@ -3,6 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< Updated upstream
+=======
+    <title>UNIMA News</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+
+body{
+    padding-top:110px;
+    background:#f8f9fa;
+}
+
+.news-hero{
+    background:url("images/banner.png") center center/cover no-repeat;
+    height:420px;
+    position:relative;
+}
+
+.news-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:100%;
+}
+
+.hero-content h1{
+    font-size:55px;
+    font-weight:bold;
+}
+
+.hero-content p{
+    font-size:22px;
+}
+
+.news-card{
+    transition:.3s;
+}
+
+.news-card:hover{
+    transform:translateY(-8px);
+}
+
+.news-card img{
+    height:220px;
+    object-fit:cover;
+}
+>>>>>>> Stashed changes
 
      <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -53,10 +115,17 @@
     margin-top:20px;
     font-size:14px;
 }
+<<<<<<< Updated upstream
 </style>
+=======
+
+    </style>
+>>>>>>> Stashed changes
 
 </head>
+
 <body>
+<<<<<<< Updated upstream
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000080;">
   <div class="container-fluid">
     <a class="navbar-brand font-weight-bold"  href="#">UNIMA</a>
@@ -68,23 +137,26 @@
       <li class="nav-item"> 
         <a class="nav-link "  href="index.html">UNIMA </a>
      </li>
+=======
+>>>>>>> Stashed changes
 
-     <li class="nav-item">
-        <a class="nav-link"  href="programs.html">Programs</a> 
-      </li> 
+<!-- BLUE NAVBAR -->
 
+<<<<<<< Updated upstream
      <li class="nav-item">
         <a class="nav-link"  href="../students/students.html">Students</a> 
       </li> 
+=======
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top"
+style="background:#000080;">
+>>>>>>> Stashed changes
 
-      <li class="nav-item">
-        <a class="nav-link"  href="loans.html">Loans</a> 
-      </li>   
+<div class="container-fluid">
 
-      <li class="nav-item">
-        <a class="nav-link" href="signin.html">Admission</a> 
-      </li>
+<a class="navbar-brand fw-bold"
+href="index.html">
 
+<<<<<<< Updated upstream
       <li class="nav-item">
         <a class="nav-link active"  href="news.html">News</a> 
       </li>   
@@ -95,40 +167,81 @@
       </ul>
     </div>
   </div>
-</nav>
-<!--end of top navigation bar-->
-<div class="tab-content" id="sub-nav-content">
-  <!--start of news page navigations-->
-      <div class="tab-pane fade show active" id="nav-news">
-        <nav class="navbar navbar-expand navbar-light border-bottom py-1" style="background-color: #FFD700;">
-          <div class="container-fluid">
-            
-            <div class="navbar-nav gap-3"> 
+=======
+UNIMA
 
-<div class="card mb-3">
-   <div class="row g-0">
+</a>
 
-     <div class="col-md-4">
-      <img src="3.jpg" class="img-fluid rounded-start" alt="library">
-     </div>
+<button class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarSupportedContent">
 
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">UNIMA opens a New Lirary Wing</h5>
+<span class="navbar-toggler-icon"></span>
 
-        <p class="card-text">The university of malawi has officially opened a new library wing to improve learning resources and study facilties for students.</p>
-        <p class="card-text"><small class="text-muted">Published june 2026</small></p>
-      </div>
-    </div>
-  </div>
+</button>
+
+<div class="collapse navbar-collapse"
+id="navbarSupportedContent">
+
+<ul class="navbar-nav me-auto">
+
+<li class="nav-item">
+<a class="nav-link"
+href="index.html">UNIMA</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="programs.html">Programs</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="students.html">Students</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="loans.html">Loans</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="signin.html">Admission</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active"
+href="news.html">News</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link"
+href="about.html">About</a>
+</li>
+
+</ul>
+
 </div>
-<div class="card mb-3">
-   <div class="row g-0">
 
-     <div class="col-md-4">
-      <img src="3.jpg" class="img-fluid rounded-start" alt="library">
-     </div>
+</div>
 
+>>>>>>> Stashed changes
+</nav>
+
+<!-- YELLOW NAVBAR -->
+
+<nav class="navbar navbar-expand navbar-light fixed-top"
+style="top:56px;background:#FFD700;">
+
+<div class="container-fluid">
+
+<span class="fw-bold">
+
+LATEST NEWS & EVENTS
+
+<<<<<<< Updated upstream
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">2026 graduation Ceremony Announced</h5>
@@ -218,9 +331,32 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-<!--end of banner carousel-->
+=======
+</span>
 
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="news-hero">
+
+<div class="hero-content">
+
+<h1>UNIMA News</h1>
+
+<p>
+
+Stay updated with the latest events,
+research and university announcements.
+
+</p>
+
+>>>>>>> Stashed changes
+</div>
+
+<<<<<<< Updated upstream
 <!--start of second carousel-->
 <div id="conveyorSlider" class="carousel carousel-dark slide my-4 my-5" data-bs-ride="carousel" data-bs-interval="2000">
       
@@ -289,79 +425,363 @@
             </div>
           </div>
         </div>
+=======
+</section>
 
-      </div>
+<div class="container py-5">
 
-      <button class="carousel-control-prev" type="button" data-bs-target="#conveyorSlider" data-bs-slide="prev" style="width: 5%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#conveyorSlider" data-bs-slide="next" style="width: 5%;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+<h2 class="text-center mb-5">
 
-    </div>
-<!--end of second couresel-->
+Latest News
+>>>>>>> Stashed changes
 
+</h2>
+
+<div class="row g-4">
+  <!-- News Card 1 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/banner.png" class="card-img-top" alt="Library">
+<div class="card-body">
+<span class="badge bg-primary mb-2">Campus News</span>
+<h5 class="card-title">UNIMA Opens New Library Wing</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+The University of Malawi has officially opened a modern library wing
+equipped with digital learning facilities and expanded study spaces for students.
+</p>
+<a href="#" class="btn btn-outline-primary">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- News Card 2 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/images (3).jpg" class="card-img-top" alt="Graduation">
+<div class="card-body">
+<span class="badge bg-success mb-2">Events</span>
+<h5 class="card-title">2026 Graduation Ceremony Announced</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+UNIMA has announced the official graduation ceremony to be held
+at the Great Hall with graduates from all faculties.
+</p>
+<a href="#" class="btn btn-outline-success">Read More</a>
+</div>
+</div>
+</div>
+
+<<<<<<< Updated upstream
 <!--fotter-->
+=======
+<!-- News Card 3 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/social_science.png" class="card-img-top" alt="Research">
+<div class="card-body">
+<span class="badge bg-warning text-dark mb-2">Research</span>
+<h5 class="card-title">UNIMA Launches eCampus Platform</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+The university has launched a modern online learning platform
+to improve access to lectures and academic resources.
+</p>
+<a href="#" class="btn btn-outline-warning">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- News Card 4 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/banner.png" class="card-img-top" alt="Innovation">
+<div class="card-body">
+<span class="badge bg-danger mb-2">Innovation</span>
+<h5 class="card-title">Students Win National Innovation Award</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+A team of UNIMA students received national recognition
+for developing an innovative technology solution.
+</p>
+<a href="#" class="btn btn-outline-danger">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- News Card 5 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/images (3).jpg" class="card-img-top" alt="Admissions">
+<div class="card-body">
+<span class="badge bg-info text-dark mb-2">Admissions</span>
+<h5 class="card-title">Admissions for 2027 Intake Open</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+Applications are now open for prospective students wishing
+to join the University of Malawi in 2027.
+</p>
+<a href="#" class="btn btn-outline-info">Read More</a>
+</div>
+</div>
+</div>
+
+<!-- News Card 6 -->
+<div class="col-lg-4 col-md-6">
+<div class="card news-card shadow h-100">
+<img src="images/social_science.png" class="card-img-top" alt="Sports">
+<div class="card-body">
+<span class="badge bg-secondary mb-2">Student Life</span>
+<h5 class="card-title">Sports Festival Returns</h5>
+<p class="text-muted">
+<i class="bi bi-calendar-event"></i> June 2026
+</p>
+<p class="card-text">
+Students participated in various sporting activities
+promoting teamwork, wellness and campus life.
+</p>
+<a href="#" class="btn btn-outline-secondary">Read More</a>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Featured Story -->
+<section class="my-5">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+<img src="images/banner.png"
+class="img-fluid rounded shadow"
+alt="Featured News">
+</div>
+
+<div class="col-lg-6">
+
+<span class="badge bg-danger mb-3">
+Featured Story
+</span>
+
+<h2 class="fw-bold">
+University of Malawi Continues to Expand Academic Excellence
+</h2>
+
+<p class="text-muted">
+Published July 2026
+</p>
+
+<p>
+The University of Malawi continues to improve teaching,
+research and innovation by investing in modern facilities,
+digital learning technologies and student-centred education.
+The university remains committed to producing graduates
+who contribute positively to Malawi and beyond.
+</p>
+
+<a href="#" class="btn btn-primary">
+Read Full Story
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Upcoming Events -->
+
+<section class="my-5">
+
+<h2 class="text-center mb-4">
+Upcoming Events
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body text-center">
+
+<h5>Open Day</h5>
+
+<p>
+Prospective students and parents are invited
+to tour the campus and interact with staff.
+</p>
+
+<p class="text-primary">
+15 August 2026
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body text-center">
+
+<h5>Research Conference</h5>
+
+<p>
+Researchers from different faculties will
+present innovative projects and findings.
+</p>
+
+<p class="text-primary">
+22 August 2026
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body text-center">
+
+<h5>Freshers Orientation</h5>
+
+<p>
+Orientation programme for all newly admitted
+students joining the University.
+</p>
+
+<p class="text-primary">
+5 September 2026
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+<!-- Footer -->
+
+>>>>>>> Stashed changes
 <footer class="footer">
-    <div class="container">
-        <div class="row">
 
-            <div class="col-md-4">
-                <h4>University of Malawi</h4>
-                <p>
-                    Empowering students through quality education,
-                    research and innovation.
-                </p>
-            </div>
+<div class="container">
 
-            <div class="col-md-4">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><i class="bi bi-house-door-fill"></i><a href="index.html">Home</a></li>
-                    <li><i class="bi bi-mortarboard-fill"></i><a href="signin.html">Admissions</a></li>
-                    <li><i class="bi bi-book-fill"></i><a href="#">Library</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="../students/student-portal.html">Student Portal</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="#">Loans</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="#">Programs offered</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="unima/cources-offered.html">Courses offered</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="../about/about.html">About</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="#">Tuition Cost</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="#">Buildings</a></li>
-                    <li><i class="bi bi-person-fill"></i><a href="#">hostels</a></li>
-                </ul>
-            </div>
+<div class="row">
 
-            <div class="col-md-4">
-                <h4>Contact Us</h4>
-                <p><i class="bi bi-geo-alt-fill"></i> Zomba, Malawi</p>
-                <p><i class="bi bi-telephone-fill"></i> +265 999 123 456</p>
-                <p><i class="bi bi-envelope-fill"></i> info@unima.ac.mw</p>
-            </div>
+<div class="col-md-4">
 
-        </div>
+<h4>University of Malawi</h4>
 
-        <hr>
+<p>
 
-        <div class="d-flex justify-content-center gap-4 mb-3">
-            <a href="https://www.facebook.com/">
-                <img src="facebook.svg" alt="facebook" style="width: 28px; height: 28px;">
-            </a>
-            <a href="https://www.twitter.com/">
-                <img src="twitter.svg" alt="twitter" style="width: 28px; height: 28px;">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="instagram (1).svg" alt="instagram" style="width: 28px; height: 28px;">
-            </a>
-        </div>
+Empowering students through quality education,
+research and innovation.
 
-        <p class="copyright text-center m-0">
-            © 2026 University of Malawi. All Rights Reserved.
-        </p>
-    </div>
+</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>Quick Links</h4>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="programs.html">Programs</a></li>
+
+<li><a href="students.html">Students</a></li>
+
+<li><a href="loans.html">Loans</a></li>
+
+<li><a href="news.html">News</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="signin.html">Admissions</a></li>
+
+</ul>
+
+</div>
+
+<div class="col-md-4">
+
+<h4>Contact Us</h4>
+
+<p>
+<i class="bi bi-geo-alt-fill"></i>
+Zomba, Malawi
+</p>
+
+<p>
+<i class="bi bi-telephone-fill"></i>
++265 111 111 111
+</p>
+
+<p>
+<i class="bi bi-envelope-fill"></i>
+info@unima.ac.mw
+</p>
+
+<div class="d-flex gap-3 mt-3">
+
+<a href="#">
+<i class="bi bi-facebook fs-3 text-white"></i>
+</a>
+
+<a href="#">
+<i class="bi bi-twitter-x fs-3 text-white"></i>
+</a>
+
+<a href="#">
+<i class="bi bi-instagram fs-3 text-white"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="text-center mb-0">
+
+&copy; 2026 University of Malawi. All Rights Reserved.
+
+</p>
+
+</div>
+
 </footer>
+<<<<<<< Updated upstream
 <!--end of footer-->
 
 
@@ -377,3 +797,11 @@
     -->
   </body>
 </html>
+=======
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+>>>>>>> Stashed changes
