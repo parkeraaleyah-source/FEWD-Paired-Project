@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNIMA News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<title>UNIMA News</title>
 
-    <style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
 
 body{
-    padding-top:110px;
     background:#f8f9fa;
 }
 
 .news-hero{
-    background:url("images/banner.png") center center/cover no-repeat;
+    background:url("images/chanco-banner-600x450.jpg") center center/cover no-repeat;
     height:420px;
     position:relative;
 }
@@ -34,20 +34,20 @@ body{
     z-index:2;
     color:white;
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
+    flex-direction:column;
     text-align:center;
     height:100%;
 }
 
 .hero-content h1{
-    font-size:55px;
+    font-size:65px;
     font-weight:bold;
 }
 
 .hero-content p{
-    font-size:22px;
+    font-size:24px;
 }
 
 .news-card{
@@ -62,55 +62,53 @@ body{
     height:220px;
     object-fit:cover;
 }
+
+.footer{
+    background:#0b2341;
+    color:white;
+    padding:50px 0 20px;
+}
+
+.footer h4{
+    color:#ffc107;
+    margin-bottom:15px;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer ul li{
+    margin-bottom:10px;
+}
+
+.footer hr{
+    border-color:rgba(255,255,255,.2);
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+}
+
 </style>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000080;">
-  <div class="container-fluid">
-    <a class="navbar-brand font-weight-bold"  href="#">UNIMA</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav nav-tabs me-auto">
-      <li class="nav-item"> 
-        <a class="nav-link "  href="index.html">UNIMA </a>
-     </li>
 
-<!-- BLUE NAVBAR -->
+<!-- TOP NAVBAR -->
 
-     <li class="nav-item">
-        <a class="nav-link"  href="../students/students.html">Students</a> 
-      </li> 
-
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top"
-style="background:#000080;">
-
+<nav class="navbar navbar-expand-lg navbar-dark" style="background:#000080;">
 
 <div class="container-fluid">
 
-<a class="navbar-brand fw-bold"
-href="index.html">
-
-
-      <li class="nav-item">
-        <a class="nav-link active"  href="news.html">News</a> 
-      </li>   
-
-      <li class="nav-item">
-        <a class="nav-link"  href="../about/about.html" >About</a> 
-      </li> 
-      </ul>
-    </div>
-  </div>
-
-UNIMA
-
+<a class="navbar-brand" href="#">
+<img src="images/UnimaLogo.jpg" alt="Logo">
 </a>
 
-<button class="navbar-toggler"
-type="button"
+<button class="navbar-toggler" type="button"
 data-bs-toggle="collapse"
 data-bs-target="#navbarSupportedContent">
 
@@ -118,408 +116,368 @@ data-bs-target="#navbarSupportedContent">
 
 </button>
 
-<div class="collapse navbar-collapse"
-id="navbarSupportedContent">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-<ul class="navbar-nav me-auto">
+<ul class="nav nav-tabs me-auto">
 
 <li class="nav-item">
-<a class="nav-link"
-href="index.html">UNIMA</a>
+<a class="nav-link" href="index.html">UNIMA</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link"
-href="programs.html">Programs</a>
+<a class="nav-link" href="programs.html">Programs</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link"
-href="students.html">Students</a>
+<a class="nav-link" href="students/students.html">Students</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link"
-href="loans.html">Loans</a>
+<a class="nav-link" href="loans.html">Loans</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link"
-href="signin.html">Admission</a>
+<a class="nav-link" href="signin.html">Admission</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link active"
-href="news.html">News</a>
+<a class="nav-link active" href="news.html">News</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link"
-href="about.html">About</a>
+<a class="nav-link" href="about/about.html">About</a>
 </li>
 
 </ul>
 
-</div>
+<div class="ms-auto d-flex gap-2">
 
-</div>
+<a href="https://twitter.com">
+<img src="twitter.svg" alt="twitter">
+</a>
 
->>>>>>> Stashed changes
-</nav>
+<a href="https://facebook.com">
+<img src="facebook.svg" alt="facebook">
+</a>
 
-<!-- YELLOW NAVBAR -->
-
-<nav class="navbar navbar-expand navbar-light fixed-top"
-style="top:56px;background:#FFD700;">
-
-<div class="container-fluid">
-
-<span class="fw-bold">
-
-LATEST NEWS & EVENTS
-
-<<<<<<< Updated upstream
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">2026 graduation Ceremony Announced</h5>
-
-        <p class="card-text">UNIMA has announced that the 2026 graduation ceremony will take place at the Great Hall with students from various falcuties expected to graduate.</p>
-        <p class="card-text"><small class="text-muted">Published june 2026</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3">
-   <div class="row g-0">
-
-     <div class="col-md-4">
-      <img src="3.jpg" class="img-fluid rounded-start" alt="library">
-     </div>
-
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">UNIMA Launches eCampus platform</h5>
-
-        <p class="card-text">The university has introduced the eCampus platform to support online learningand provide easier access to educational materials .</p>
-        <p class="card-text"><small class="text-muted">Published june 2026</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3">
-   <div class="row g-0">
-
-     <div class="col-md-4">
-      <img src="3.jpg" class="img-fluid rounded-start" alt="library">
-     </div>
-
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">UNIMA students win Innovation Award</h5>
-
-        <p class="card-text">A team of unima students won a national innovational award after developing a technology solution aimed at improving community services .</p>
-        <p class="card-text"><small class="text-muted">Published june 2026</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3">
-   <div class="row g-0">
-
-     <div class="col-md-4">
-      <img src="3.jpg" class="img-fluid rounded-start" alt="library">
-     </div>
-
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Admissions for 2027 intake open</h5>
-
-        <p class="card-text">Applications for the 2027 academic year are now open and prospective students are encouraged to apply through the official admission portal.</p>
-        <p class="card-text"><small class="text-muted">Published june 2026</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-            
-
-            </div> </div> </nav>
-      </div>
-      <!--end of news page naigations--> 
-
-</div>
-<!--start of banner carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/banner.jpg" class="d-block w-100" alt="banner" width="100%" height="450px">
-    </div>
-    <div class="carousel-item">
-      <img src="images/chanco2-5.jpg" class="d-block w-100" alt="campus" width="100%" height="450px">
-    </div>
-    <div class="carousel-item">
-      <img src="images/social_science.png" class="d-block w-100" alt="humanities and social science" width="100%" height="450px">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</span>
-
-</div>
-
-</nav>
-
-<!-- HERO -->
-
-<section class="news-hero">
-
-<div class="hero-content">
-
-<h1>UNIMA News</h1>
-
-<p>
-
-Stay updated with the latest events,
-research and university announcements.
-
-</p>
-
-
-</div>
-
-<!--start of second carousel-->
-<div id="conveyorSlider" class="carousel carousel-dark slide my-4 my-5" data-bs-ride="carousel" data-bs-interval="2000">
-      
-      <div class="carousel-inner">
-        
-        <div class="carousel-item active">
-          <div class="container-fluid">
-            <div class="row g-3 flex-nowrap overflow-hidden">
-              <div class="col-4">
-                <a href="unima/cources-offered.html"><img src="images/chanco-banner-600x450.jpg" class="img-fluid rounded shadow-sm" alt="Offer 1" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="#"><img src="images/ecampus.png" class="img-fluid rounded shadow-sm" alt="Offer 2" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="unima/apply.html"><img src="images/Handover-of-Teaching-and-Learning-Complex---2025-04-07.jpeg" class="img-fluid rounded shadow-sm" alt="Offer 3" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="container-fluid">
-            <div class="row g-3 flex-nowrap overflow-hidden">
-              <div class="col-4">
-                <a href="#"><img src="images/ecampus.png"  class="img-fluid rounded shadow-sm" alt="Offer 4" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="unima/apply.html"><img src="images/Handover-of-Teaching-and-Learning-Complex---2025-04-07.jpeg" class="img-fluid rounded shadow-sm" alt="Offer 3" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="signin.html"><img src="images/615271950_1874942856722839_6391749766365019431_n.jpg" class="img-fluid rounded shadow-sm" alt="Offer 2" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="container-fluid">
-            <div class="row g-3 flex-nowrap overflow-hidden">
-              <div class="col-4">
-                <a href="unima/apply.html"><img src="images/Handover-of-Teaching-and-Learning-Complex---2025-04-07.jpeg" class="img-fluid rounded shadow-sm" alt="Offer 3" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="signin.html"><img src="images/615271950_1874942856722839_6391749766365019431_n.jpg" class="img-fluid rounded shadow-sm" alt="Offer 4" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="unima/cources-offered.html"><img src="images/chanco-banner-600x450.jpg" class="img-fluid rounded shadow-sm" alt="Offer 1" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="container-fluid">
-            <div class="row g-3 flex-nowrap overflow-hidden">
-              <div class="col-4">
-                <a href="signin.html"><img src="images/615271950_1874942856722839_6391749766365019431_n.jpg" class="img-fluid rounded shadow-sm" alt="Offer 4" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="unima/cources-offered.html"><img src="images/chanco-banner-600x450.jpg" class="img-fluid rounded shadow-sm" alt="Offer 1" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-              <div class="col-4">
-                <a href="#"><img src="images/ecampus.png" class="img-fluid rounded shadow-sm" alt="Offer 2" style="height: 320px; width: 100%; object-fit: cover;"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-</h2>
-
-<div class="row g-4">
-  <!-- News Card 1 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/banner.png" class="card-img-top" alt="Library">
-<div class="card-body">
-<span class="badge bg-primary mb-2">Campus News</span>
-<h5 class="card-title">UNIMA Opens New Library Wing</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-The University of Malawi has officially opened a modern library wing
-equipped with digital learning facilities and expanded study spaces for students.
-</p>
-<a href="#" class="btn btn-outline-primary">Read More</a>
-</div>
-</div>
-</div>
-
-<!-- News Card 2 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/images (3).jpg" class="card-img-top" alt="Graduation">
-<div class="card-body">
-<span class="badge bg-success mb-2">Events</span>
-<h5 class="card-title">2026 Graduation Ceremony Announced</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-UNIMA has announced the official graduation ceremony to be held
-at the Great Hall with graduates from all faculties.
-</p>
-<a href="#" class="btn btn-outline-success">Read More</a>
-</div>
-</div>
-</div>
-
-<!-- News Card 3 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/social_science.png" class="card-img-top" alt="Research">
-<div class="card-body">
-<span class="badge bg-warning text-dark mb-2">Research</span>
-<h5 class="card-title">UNIMA Launches eCampus Platform</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-The university has launched a modern online learning platform
-to improve access to lectures and academic resources.
-</p>
-<a href="#" class="btn btn-outline-warning">Read More</a>
-</div>
-</div>
-</div>
-
-<!-- News Card 4 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/banner.png" class="card-img-top" alt="Innovation">
-<div class="card-body">
-<span class="badge bg-danger mb-2">Innovation</span>
-<h5 class="card-title">Students Win National Innovation Award</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-A team of UNIMA students received national recognition
-for developing an innovative technology solution.
-</p>
-<a href="#" class="btn btn-outline-danger">Read More</a>
-</div>
-</div>
-</div>
-
-<!-- News Card 5 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/images (3).jpg" class="card-img-top" alt="Admissions">
-<div class="card-body">
-<span class="badge bg-info text-dark mb-2">Admissions</span>
-<h5 class="card-title">Admissions for 2027 Intake Open</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-Applications are now open for prospective students wishing
-to join the University of Malawi in 2027.
-</p>
-<a href="#" class="btn btn-outline-info">Read More</a>
-</div>
-</div>
-</div>
-
-<!-- News Card 6 -->
-<div class="col-lg-4 col-md-6">
-<div class="card news-card shadow h-100">
-<img src="images/social_science.png" class="card-img-top" alt="Sports">
-<div class="card-body">
-<span class="badge bg-secondary mb-2">Student Life</span>
-<h5 class="card-title">Sports Festival Returns</h5>
-<p class="text-muted">
-<i class="bi bi-calendar-event"></i> June 2026
-</p>
-<p class="card-text">
-Students participated in various sporting activities
-promoting teamwork, wellness and campus life.
-</p>
-<a href="#" class="btn btn-outline-secondary">Read More</a>
-</div>
-</div>
-</div>
-
-</div>
-
-<!-- Featured Story -->
-<section class="my-5">
-
-<div class="row align-items-center">
-
-<div class="col-lg-6">
-<img src="images/banner.png"
-class="img-fluid rounded shadow"
-alt="Featured News">
-</div>
-
-<div class="col-lg-6">
-
-<span class="badge bg-danger mb-3">
-Featured Story
-</span>
-
-<h2 class="fw-bold">
-University of Malawi Continues to Expand Academic Excellence
-</h2>
-
-<p class="text-muted">
-Published July 2026
-</p>
-
-<p>
-The University of Malawi continues to improve teaching,
-research and innovation by investing in modern facilities,
-digital learning technologies and student-centred education.
-The university remains committed to producing graduates
-who contribute positively to Malawi and beyond.
-</p>
-
-<a href="#" class="btn btn-primary">
-Read Full Story
+<a href="https://instagram.com">
+<img src="instagram (1).svg" alt="instagram">
 </a>
 
 </div>
 
 </div>
+
+</div>
+
+</nav>
+
+<!-- YELLOW NAVBAR -->
+
+<nav class="navbar navbar-expand navbar-light border-bottom py-2"
+style="background:#FFD700;">
+
+<div class="container-fluid">
+
+<span class="fw-bold">
+LATEST NEWS & EVENTS
+</span>
+
+</div>
+
+</nav>
+<!-- HERO SECTION -->
+
+<section class="news-hero">
+    <div class="hero-content">
+        <h1>UNIMA News</h1>
+        <p>Stay updated with the latest events, research and university announcements.</p>
+    </div>
+</section>
+
+<!-- BANNER CAROUSEL -->
+
+<div id="carouselExampleControls" class="carousel slide mt-4"
+data-bs-ride="carousel"
+data-bs-interval="2000">
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="images/banner.jpg"
+            class="d-block w-100"
+            alt="Banner"
+            height="450">
+        </div>
+
+        <div class="carousel-item">
+            <img src="images/chanco2-5.jpg"
+            class="d-block w-100"
+            alt="Campus"
+            height="450">
+        </div>
+
+        <div class="carousel-item">
+            <img src="images/social_science.png"
+            class="d-block w-100"
+            alt="Social Science"
+            height="450">
+        </div>
+
+    </div>
+
+    <button class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon"></span>
+
+    </button>
+
+    <button class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="next">
+
+        <span class="carousel-control-next-icon"></span>
+
+    </button>
+
+</div>
+
+<!-- SECOND CAROUSEL -->
+
+<div id="conveyorSlider"
+class="carousel carousel-dark slide my-5"
+data-bs-ride="carousel"
+data-bs-interval="2000">
+
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+
+<div class="container-fluid">
+
+<div class="row g-3">
+
+<div class="col-md-4">
+<img src="images/chanco-banner-600x450.jpg"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+<div class="col-md-4">
+<img src="images/ecampus.png"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+<div class="col-md-4">
+<img src="images/Handover-of-Teaching-and-Learning-Complex---2025-04-07.jpeg"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<div class="container-fluid">
+
+<div class="row g-3">
+
+<div class="col-md-4">
+<img src="images/ecampus.png"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+<div class="col-md-4">
+<img src="images/615271950_1874942856722839_6391749766365019431_n.jpg"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+<div class="col-md-4">
+<img src="images/chanco-banner-600x450.jpg"
+class="img-fluid rounded shadow-sm"
+style="height:320px;width:100%;object-fit:cover;">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<button class="carousel-control-prev"
+type="button"
+data-bs-target="#conveyorSlider"
+data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+<button class="carousel-control-next"
+type="button"
+data-bs-target="#conveyorSlider"
+data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+<!-- NEWS CONTENT -->
+
+<div class="container my-5">
+
+<h2 class="text-center mb-5">
+Latest News
+</h2>
+
+<div class="row g-4">
+  <!-- News Card 1 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/great hall.jpg" class="card-img-top" alt="Library">
+        <div class="card-body">
+            <h5 class="card-title">UNIMA Opens New Library Wing</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                The University of Malawi has opened a new library wing with
+                modern study spaces and digital learning facilities.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- News Card 2 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/graduation.jpg" class="card-img-top" alt="Graduation">
+        <div class="card-body">
+            <h5 class="card-title">2026 Graduation Ceremony</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                Graduation will take place at the Great Hall where students
+                from different faculties will receive their degrees.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- News Card 3 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/ecampus.png" class="card-img-top" alt="eCampus">
+        <div class="card-body">
+            <h5 class="card-title">eCampus Platform Launched</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                UNIMA has introduced the eCampus platform to improve online
+                learning and give students easier access to study materials.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- News Card 4 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/Handover-of-Teaching-and-Learning-Complex---2025-04-07.jpeg" class="card-img-top" alt="Innovation">
+        <div class="card-body">
+            <h5 class="card-title">Students Win Innovation Award</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                A group of students won a national innovation award after
+                presenting an outstanding technology project.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- News Card 5 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/applications.jpg" class="card-img-top" alt="Admissions">
+        <div class="card-body">
+            <h5 class="card-title">Admissions Now Open</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                Applications for the next academic year are now open.
+                Students are encouraged to apply online.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+<!-- News Card 6 -->
+<div class="col-md-4">
+    <div class="card h-100 shadow-sm news-card">
+        <img src="images/sports.jpg" class="card-img-top" alt="Sports">
+        <div class="card-body">
+            <h5 class="card-title">Sports Festival Returns</h5>
+            <p class="text-muted">June 2026</p>
+            <p class="card-text">
+                Students participated in football, netball and athletics during
+                the annual University sports festival.
+            </p>
+            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- Featured Story -->
+<section class="my-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-lg-6">
+            <img src="images/chanco-banner-600x450.jpg"
+                 class="img-fluid rounded shadow"
+                 alt="Featured News">
+        </div>
+
+        <div class="col-lg-6">
+
+            <h2 class="fw-bold">
+                University of Malawi Continues to Improve Learning
+            </h2>
+
+            <p class="text-muted">
+                Published July 2026
+            </p>
+
+            <p>
+                The University of Malawi continues to improve teaching,
+                research and innovation by providing better learning
+                facilities, modern classrooms and online learning
+                opportunities for students.
+            </p>
+
+            <a href="#" class="btn btn-primary">
+                Read Full Story
+            </a>
+
+        </div>
+
+    </div>
 
 </section>
 
@@ -531,11 +489,11 @@ Read Full Story
 Upcoming Events
 </h2>
 
-<div class="row g-4">
+<div class="row">
 
-<div class="col-md-4">
+<div class="col-md-4 mb-4">
 
-<div class="card shadow h-100">
+<div class="card shadow-sm h-100">
 
 <div class="card-body text-center">
 
@@ -543,7 +501,7 @@ Upcoming Events
 
 <p>
 Prospective students and parents are invited
-to tour the campus and interact with staff.
+to tour the university campus.
 </p>
 
 <p class="text-primary">
@@ -556,9 +514,9 @@ to tour the campus and interact with staff.
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 mb-4">
 
-<div class="card shadow h-100">
+<div class="card shadow-sm h-100">
 
 <div class="card-body text-center">
 
@@ -566,7 +524,7 @@ to tour the campus and interact with staff.
 
 <p>
 Researchers from different faculties will
-present innovative projects and findings.
+present their projects and findings.
 </p>
 
 <p class="text-primary">
@@ -579,9 +537,9 @@ present innovative projects and findings.
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 mb-4">
 
-<div class="card shadow h-100">
+<div class="card shadow-sm h-100">
 
 <div class="card-body text-center">
 
@@ -608,6 +566,7 @@ students joining the University.
 
 </div>
 
+<!-- Footer -->
 
 <footer class="footer">
 
@@ -620,10 +579,8 @@ students joining the University.
 <h4>University of Malawi</h4>
 
 <p>
-
 Empowering students through quality education,
 research and innovation.
-
 </p>
 
 </div>
@@ -635,17 +592,11 @@ research and innovation.
 <ul>
 
 <li><a href="index.html">Home</a></li>
-
 <li><a href="programs.html">Programs</a></li>
-
-<li><a href="students.html">Students</a></li>
-
+<li><a href="students/students.html">Students</a></li>
 <li><a href="loans.html">Loans</a></li>
-
 <li><a href="news.html">News</a></li>
-
-<li><a href="about.html">About</a></li>
-
+<li><a href="about/about.html">About</a></li>
 <li><a href="signin.html">Admissions</a></li>
 
 </ul>
@@ -663,7 +614,7 @@ Zomba, Malawi
 
 <p>
 <i class="bi bi-telephone-fill"></i>
-+265 111 111 111
++265 999 123 456
 </p>
 
 <p>
@@ -671,18 +622,18 @@ Zomba, Malawi
 info@unima.ac.mw
 </p>
 
-<div class="d-flex gap-3 mt-3">
+<div class="mt-3">
 
-<a href="#">
-<i class="bi bi-facebook fs-3 text-white"></i>
+<a href="https://www.facebook.com/" class="me-3">
+<img src="facebook.svg" width="28">
 </a>
 
-<a href="#">
-<i class="bi bi-twitter-x fs-3 text-white"></i>
+<a href="https://www.twitter.com/" class="me-3">
+<img src="twitter.svg" width="28">
 </a>
 
-<a href="#">
-<i class="bi bi-instagram fs-3 text-white"></i>
+<a href="https://www.instagram.com/">
+<img src="instagram (1).svg" width="28">
 </a>
 
 </div>
@@ -693,27 +644,15 @@ info@unima.ac.mw
 
 <hr>
 
-<p class="text-center mb-0">
-
-&copy; 2026 University of Malawi. All Rights Reserved.
-
+<p class="text-center copyright">
+© 2026 University of Malawi. All Rights Reserved.
 </p>
 
 </div>
 
 </footer>
-<!--end of footer-->
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+</body>
 </html>
